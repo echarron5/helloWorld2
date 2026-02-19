@@ -10,6 +10,9 @@ def hello_world():  # put application's code here
 @app.route('/hello')
 def hello():
     return render_template('hello.html')
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 if __name__ == '__main__':
     app.run()
