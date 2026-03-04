@@ -1,0 +1,30 @@
+/* 2 rules for paragraphs */
+p {
+    color: blue;
+    font-family: verdana, serif;
+}
+
+/* 2 rules for Heading 2 */
+h2{
+   color: darkblue;
+    font-family: Arial, serif;
+}
+
+/* Colored border for table */
+table {
+    border: 2px solid black;
+}
+
+#third{
+    color: darkred;
+    font-style: italic;
+}
+
+.highlight{
+    background-color: lightgray;
+}
+
+img.logo{
+    width: 267px;
+    height: 72px
+}
