@@ -1,11 +1,7 @@
 from app import app, db
 from models import Major, User, Student
-from datetime import datetime as dt
 from werkzeug.security import generate_password_hash
-
-from app import app, db
-from models import Student, Major
-import datetime as dt
+from datetime import datetime as dt
 
 with app.app_context():
     db.drop_all()
