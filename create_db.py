@@ -20,9 +20,9 @@ with app.app_context():
     users = [
         {'username': 'echarron', 'email': 'echarron@terpmail.umd.edu', 'first_name':'Emily', 'last_name':'Charron',
             'password': generate_password_hash('echarron', method='pbkdf2:sha256'), 'role':'STUDENT'},
-        {'username': 'admin', 'email': 'echarron@terpmail.umd.edu', 'first_name': 'Emily', 'last_name': 'Charron',
+        {'username': 'admin', 'email': 'admin@gmail.com', 'first_name': 'Emily', 'last_name': 'Charron',
          'password': generate_password_hash('admin', method='pbkdf2:sha256'), 'role': 'ADMIN'},
-        {'username': 'manager', 'email': 'echarron@terpmail.umd.edu', 'first_name': 'Emily', 'last_name': 'Charron',
+        {'username': 'manager', 'email': 'manager@gmail.com', 'first_name': 'Emily', 'last_name': 'Charron',
          'password': generate_password_hash('manager', method='pbkdf2:sha256'), 'role': 'MANAGER'},
     ]
 
